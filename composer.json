@@ -13,15 +13,19 @@
     	{
     		"name":"Myo Kyaw Htun",
     		"email":"myochauhtun@gmail.com"
-    	}
+    	},
+		{
+			"name":"Furba Tenzing Sherpa",
+			"email":"furbatenzs576@hotmail.com"
+		}
     ],
     "require":{
     	"php": ">=8.0.0"
     },
     "minimum-stability":"dev",
     "autoload":{
-    	"psr-0":{
-    		"PDFMerger": "PDFMerger.php"
+    	"psr-4":{
+    		"PDFMerger\\": "src"
     	}
     }
 }

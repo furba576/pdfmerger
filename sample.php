@@ -1,7 +1,8 @@
 <?php
-include 'PDFMerger.php';
 
-$pdf = new PDFMerger;
+require_once 'vendor/autoload.php';
+
+$pdf = new \PDFMerger\PDFMerger();
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4')
 	->addPDF('samplepdfs/two.pdf', '1-2')
