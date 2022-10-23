@@ -1,6 +1,8 @@
 Created to publish package in composer. This work is done by myokyawhtun. Origial Repo Link is :
 https://github.com/myokyawhtun/PDFMerger
 
+This repo will be updated to support newer php and laravel versions.
+
 #PDFMerger for PHP (PHP 5 and above up to PHP 7.1 and PHP 8 Compatible)
 
 PDFMerger created by Jarrod Nettles December 2009 jarrod@squarecrow.com
